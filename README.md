@@ -5,7 +5,13 @@
     - npm: node package manager for Node.js applications
     - Python: A recent Python 3 interpreter to run the Flask backend
 2. Run `npm install` in the project's root directory
-3. Branch off of dev and rebase your branch on dev.
+3. Run the following commands in the api directory
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ pip install flask python-dotenv
+```
+4. Start the node start in development mode and run the Flask API backend with the scripts below.
 
 ## Available Scripts
 
